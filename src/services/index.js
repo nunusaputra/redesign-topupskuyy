@@ -3,7 +3,7 @@ import magicChess from "../assets/images/magic-chess.jpeg";
 import freeFire from "../assets/images/ff.jpeg";
 import pubg from "../assets/images/pubg.jpeg";
 import hok from "../assets/images/hok.jpeg";
-import hago from "../assets/images/hago.jpeg";
+import hago from "../assets/images/Hago.jpeg";
 import lita from "../assets/images/lita.jpeg";
 import cod from "../assets/images/cod.jpeg";
 import sus from "../assets/images/sus.jpeg";

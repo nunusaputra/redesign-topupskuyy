@@ -131,9 +131,16 @@ const Promo = () => {
               </div>
               <div className="w-70 bg-slate-800/20 backdrop-blur-md p-2 flex flex-col gap-1 rounded-lg">
                 <h1 className="text-white text-sm font-semibold">
-                  {item.name}
+                  {item.topup_package}
                 </h1>
-                <p className="text-white text-sm">{item.publisher}</p>
+                <div className="flex items-center gap-2">
+                  <p className="text-white text-sm line-through">
+                    Rp. {item.price.toLocaleString()}
+                  </p>
+                  <p className="text-white text-sm">
+                    Rp. {(item.price * 0.3).toLocaleString()}
+                  </p>
+                </div>
               </div>
             </div>
           ))}

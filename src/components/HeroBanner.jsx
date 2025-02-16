@@ -20,7 +20,7 @@ const HeroBanner = () => {
     <section>
       <div className="lg:min-h-76 flex flex-col lg:flex-row gap-4">
         {/* Banner Image (Slideshow) */}
-        <div className="lg:relative w-full h-full lg:w-[78%] lg:h-96 overflow-hidden">
+        <div className="lg:relative w-full h-full 2xl:w-[78%] lg:h-96 overflow-hidden">
           <div
             className="flex transition-transform duration-700 ease-in-out"
             style={{ transform: `translateX(-${current * 100}%)` }}
@@ -37,7 +37,7 @@ const HeroBanner = () => {
         </div>
 
         {/* Card Reseller (Hanya muncul di ukuran lg) */}
-        <div className="hidden lg:block lg:w-[22%] ">
+        <div className="hidden 2xl:block 2xl:w-[22%] ">
           <div className="relative w-full h-87 bg-slate-600/30 backdrop-blur-md rounded-3xl p-6 overflow-hidden">
             {/* Lingkaran Blur */}
             <div className="absolute top-0 left-0 w-30 h-30 bg-blue-500/30 blur-xl rounded-full"></div>

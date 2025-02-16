@@ -47,6 +47,8 @@ export const dataList = [
     item_name: "Diamond",
     ranking: gold,
     count_buy: 5000,
+    price: 10000, // Harga dalam IDR
+    topup_package: "86 Diamonds",
   },
   {
     id: 2,
@@ -57,6 +59,8 @@ export const dataList = [
     item_name: null,
     ranking: null,
     count_buy: 500,
+    price: 15000,
+    topup_package: "100 Magic Coins",
   },
   {
     id: 3,
@@ -67,6 +71,8 @@ export const dataList = [
     item_name: null,
     ranking: null,
     count_buy: 300,
+    price: 12000,
+    topup_package: "100 Diamonds",
   },
   {
     id: 4,
@@ -77,6 +83,8 @@ export const dataList = [
     item_name: null,
     ranking: null,
     count_buy: 250,
+    price: 50000,
+    topup_package: "660 UC",
   },
   {
     id: 5,
@@ -87,6 +95,8 @@ export const dataList = [
     item_name: null,
     ranking: null,
     count_buy: 400,
+    price: 20000,
+    topup_package: "300 Tokens",
   },
   {
     id: 6,
@@ -97,6 +107,8 @@ export const dataList = [
     item_name: "Valorant Point",
     ranking: silver,
     count_buy: 4000,
+    price: 25000,
+    topup_package: "300 Valorant Points",
   },
   {
     id: 7,
@@ -107,6 +119,8 @@ export const dataList = [
     item_name: "Genesis Crystals",
     ranking: bronze,
     count_buy: 3000,
+    price: 50000,
+    topup_package: "6480 Genesis Crystals",
   },
   {
     id: 8,
@@ -117,6 +131,8 @@ export const dataList = [
     item_name: null,
     ranking: null,
     count_buy: 100,
+    price: 30000,
+    topup_package: "520 CP",
   },
   {
     id: 9,
@@ -127,6 +143,8 @@ export const dataList = [
     item_name: null,
     ranking: null,
     count_buy: 210,
+    price: 20000,
+    topup_package: "300 Blood Coins",
   },
   {
     id: 10,
@@ -137,6 +155,8 @@ export const dataList = [
     item_name: null,
     ranking: null,
     count_buy: 50,
+    price: 45000,
+    topup_package: "500 Crystals",
   },
   {
     id: 11,
@@ -147,6 +167,8 @@ export const dataList = [
     item_name: null,
     ranking: null,
     count_buy: 30,
+    price: 47000,
+    topup_package: "6480 Stellar Jades",
   },
   {
     id: 12,
@@ -157,6 +179,8 @@ export const dataList = [
     item_name: null,
     ranking: null,
     count_buy: 1000,
+    price: 10000,
+    topup_package: "500 Gems",
   },
   {
     id: 13,
@@ -167,16 +191,20 @@ export const dataList = [
     item_name: null,
     ranking: null,
     count_buy: 520,
+    price: 25000,
+    topup_package: "1000 Silver Coins",
   },
   {
     id: 14,
-    name: "Leauge of Legends",
+    name: "League of Legends",
     publisher: "Riot Games",
     image: lol,
     type: "Games",
     item_name: null,
     ranking: null,
     count_buy: 1500,
+    price: 35000,
+    topup_package: "500 RP",
   },
   {
     id: 15,
@@ -187,6 +215,8 @@ export const dataList = [
     item_name: null,
     ranking: null,
     count_buy: 2000,
+    price: 18000,
+    topup_package: "500 Tokens",
   },
   {
     id: 16,
@@ -197,6 +227,8 @@ export const dataList = [
     item_name: null,
     ranking: null,
     count_buy: 34,
+    price: 16000,
+    topup_package: "300 Vouchers",
   },
   {
     id: 17,
@@ -207,6 +239,8 @@ export const dataList = [
     item_name: null,
     ranking: null,
     count_buy: 2500,
+    price: 12000,
+    topup_package: "1000 PB Cash",
   },
   {
     id: 18,
@@ -217,6 +251,8 @@ export const dataList = [
     item_name: null,
     ranking: null,
     count_buy: 10,
+    price: 30000,
+    topup_package: "1000 Zems",
   },
   {
     id: 19,
@@ -227,6 +263,8 @@ export const dataList = [
     item_name: null,
     ranking: null,
     count_buy: 12,
+    price: 25000,
+    topup_package: "500 Eggs",
   },
   {
     id: 20,
@@ -237,6 +275,8 @@ export const dataList = [
     item_name: null,
     ranking: null,
     count_buy: 5,
+    price: 20000,
+    topup_package: "500 Sausage Coins",
   },
   {
     id: 21,
@@ -247,6 +287,8 @@ export const dataList = [
     item_name: null,
     ranking: null,
     count_buy: 52,
+    price: 18000,
+    topup_package: "200 Gold",
   },
   {
     id: 22,
@@ -257,6 +299,8 @@ export const dataList = [
     item_name: null,
     ranking: null,
     count_buy: 23,
+    price: 40000,
+    topup_package: "1000 Tokens",
   },
   {
     id: 23,
@@ -267,6 +311,8 @@ export const dataList = [
     item_name: null,
     ranking: null,
     count_buy: 500,
+    price: 12000,
+    topup_package: "500 Coins",
   },
   {
     id: 24,
@@ -276,6 +322,8 @@ export const dataList = [
     type: "Entertainment",
     ranking: null,
     count_buy: 236,
+    price: 15000,
+    topup_package: "300 Gems",
   },
 ];
 

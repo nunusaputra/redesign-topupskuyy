@@ -10,12 +10,12 @@ const Popular = () => {
       <h1 className="text-xl sm:text-2xl text-white font-semibold mb-2">
         🔥Popular
       </h1>
-      <div className="flex flex-wrap gap-5 lg:gap-2 xl:gap-3 justify-between items-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 xl:gap-3">
         {dataList
           .filter((rank) => rank.count_buy >= 3000)
           .map((item) => (
             <div
-              className="relative w-96 h-52 sm:w-72 md:w-84 lg:w-78 xl:w-86 2xl:w-96 sm:h-45 bg-red-200 overflow-hidden rounded-lg group hover:cursor-pointer"
+              className="relative w-96 h-52 sm:w-72 md:w-86 lg:w-78 xl:w-86 2xl:w-96 sm:h-45 bg-red-200 overflow-hidden rounded-lg group hover:cursor-pointer"
               key={item.id}
             >
               {/* Gambar */}
